@@ -1,0 +1,53 @@
+@media screen and (max-width: 1160px) {
+    section {
+        display: flex;
+    }
+
+    .container {
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 760px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 450px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 80%;
+    }
+
+    .steps .col {
+        width: 80%;
+    }
+
+    .lessons .col img {
+        padding: 40px 0;
+        height: max-content;
+    }
+
+    .steps .col img {
+        height: max-content;
+        padding: 40px 0;
+    }
+
+    .col-left>img {
+        padding: 40px 0;
+    }
+
+    .why-us .col-left {
+        width: 80%;
+    }
+}
