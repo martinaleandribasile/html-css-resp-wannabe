@@ -16,9 +16,6 @@
 }
 
 @media screen and (max-width: 480px) {
-    .container {
-        width: 100%;
-    }
 
     .row {
         flex-direction: column;
@@ -27,6 +24,7 @@
 
     .lessons .col {
         width: 80%;
+        padding-bottom: 30px;
     }
 
     .steps .col {
@@ -49,5 +47,15 @@
 
     .why-us .col-left {
         width: 80%;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us {
+        padding-top: 50px;
+        background-color: black;
+        margin-bottom: 0;
     }
 }
